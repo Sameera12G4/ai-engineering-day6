@@ -8,7 +8,7 @@ def unique_word_count(text):
     words = text.lower().split()
     return len(set(words))
 def most_common_word(text):
-    words = text.lower().split()
+    words = text.lower().replace(".", "").split()
     word_counts = {}
     for word in words:
         if word in word_counts:
