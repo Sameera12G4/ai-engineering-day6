@@ -3,6 +3,7 @@ import os
 from calculator import add, subtract, multiply, divide
 from text_analyzer import word_count, character_count, sentence_count
 from text_analyzer import unique_word_count, most_common_word
+print("AI Engineering Day 6")
 print("Addition:", add(10, 5))
 print("Subtraction:", subtract(10, 5))
 print("Multiplication:", multiply(10, 5))
